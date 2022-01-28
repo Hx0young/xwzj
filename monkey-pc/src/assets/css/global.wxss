@@ -1,0 +1,16 @@
+.mg-t-20 {
+  margin-top: 20px;
+}
+.mg-r-20 {
+  margin-right: 20px;
+}
+.mg-b-20 {
+  margin-bottom: 20px;
+}
+.mg-l-20 {
+  margin-left: 20px;
+}
+.common-form .el-select,
+.common-form .el-input {
+  width: 100%;
+}

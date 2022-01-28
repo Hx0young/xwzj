@@ -1,0 +1,108 @@
+/*全局公共样式*/
+.common-container{
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.right-op-btn{
+    width:100%;
+    height: 58px;
+    margin-bottom: 20px !important;
+    margin-left: 0px !important;
+}
+.mg-t-20{
+    margin-top:20px !important;
+}
+.mg-b-20{
+    margin-bottom:20px !important;
+}
+.mg-l-20{
+    margin-left:20px !important;
+}
+.mg-r-20{
+    margin-right:20px !important;
+}
+.t-red{
+    color:#F56C6C;
+}
+.t-blue{
+    color:#409EFF;
+}
+.t-gray{
+    color:#909399;
+}
+.t-orange{
+    color:#E6A23C;
+}
+.t-green{
+    color:#67C23A;
+}
+.small-circle-tag{
+    padding: 0 10px !important; 
+    border-radius: 12px !important;
+    cursor: pointer;
+    margin-right: 6px;
+    margin-bottom: 10px;
+}
+.normal-circle-tag{
+    padding: 0 10px !important; 
+    border-radius: 16px !important;
+    cursor: pointer;
+    margin-right: 6px;
+    margin-bottom: 10px;
+}
+.small-circle-tag:hover,.normal-circle-tag:hover{
+    background-color: #ecf5ff;
+    border-color: #d9ecff;
+    color:#409EFF;
+}
+.normal-circle-tag:hover .el-tag__close{
+    background-color: #409EFF;
+}
+.collapse-hide-title{
+    border: none !important;
+
+}
+.collapse-hide-title .el-collapse-item__header{
+    display: none;
+}
+.collapse-hide-title .el-collapse-item__wrap{
+    border:none !important;
+}
+.collapse-hide-title .el-collapse-item__wrap .el-collapse-item__content{
+    padding-bottom: 0px !important;
+}
+
+/*
+头像上传样式
+*/
+.avatar-uploader .el-upload {
+    border: 1px dashed #d9d9d9;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    width: 178px;
+    height: 178px;
+}
+.avatar-uploader .el-upload:hover {
+    border-color: #409EFF;
+}
+.avatar-uploader-icon {
+    font-size: 28px;
+    color: #8c939d;
+    width: 178px;
+    height: 178px;
+    line-height: 178px;
+    text-align: center;
+    position: relative;
+}
+.avatar-uploader-icon::before{
+    position: absolute;
+    top: 75px;
+    left: 75px;
+}
+.avatar {
+    width: 178px;
+    height: 178px;
+    display: block;
+}

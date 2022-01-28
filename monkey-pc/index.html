@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>题仙</title>
+  <style>
+    body::-webkit-scrollbar {
+      width: 5px;
+    }
+
+    /*定义滚动条轨道 内阴影+圆角*/
+    body::-webkit-scrollbar-track {
+      border-radius: 10px;
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+
+    /*定义滑块 内阴影+圆角*/
+    body::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      -webkit-box-shadow: inset 0 0 6px rgb(160, 207, 255);
+      background-color:rgb(102, 177, 255);
+    }
+  </style>
+  <!-- 全局配置 -->
+  <script>
+    window._CONFIG = {}
+    window._CONFIG['domianURL'] = 'http://172.26.3.77:8081/';
+    window._CONFIG['timeout'] = 3000;
+  </script>
+</head>
+
+<body>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+</body>
+
+</html>
